@@ -1,26 +1,32 @@
-.App {
+body {
     text-align: centre;
     color: rgb(4, 4, 79);
 }
 
-.App {
+body {
     background-color: #f5a988;
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+
+background-image: url('../public/logo512.png');
 }
 
 .CakeList {
     background-color: #f5a988;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     font-size: calc(10px + 2vmin);
     color: white;
+}
+
+.Cake {
+    border: solid 1px;
+    border-color: rgb(54, 103, 103);
+    padding: 5%;
+    margin: 10px;
 }
