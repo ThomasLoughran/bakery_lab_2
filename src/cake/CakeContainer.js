@@ -61,7 +61,8 @@ const CakeContainer = () => {
   return (
     <>
 		<CakeForm onNewCakeSubmission={handleNewCakeSubmission}/>
-        <CakeList cakes= {listOfCakes}/> 
+        <CakeList cakes= {listOfCakes} 
+		/> 
     </>
   )
 }

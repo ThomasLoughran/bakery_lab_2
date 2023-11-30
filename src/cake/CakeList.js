@@ -1,5 +1,6 @@
 import Cake from "./Cake";
 
+
 const CakeList = ({cakes}) => {
 
    const cakeComponents = cakes.map(cake => {
@@ -7,8 +8,7 @@ const CakeList = ({cakes}) => {
    })  
 
    return(
-    <section>
-        <h2>All Cakes</h2>
+    <section className = "CakeList">
         {cakeComponents}
     </section>
    )
