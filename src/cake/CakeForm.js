@@ -26,7 +26,7 @@ const CakeForm = ({onNewCakeSubmission}) => {
     
 
         const newCake = {
-            name: name,
+            cakeName: name,
             ingredients: [ingredientsList],
             rating: rating,
             price: price,
