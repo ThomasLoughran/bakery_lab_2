@@ -1,6 +1,6 @@
 body {
     text-align: centre;
-    color: rgb(4, 4, 79);
+    color: lightblue;
 }
 
 body {
@@ -10,9 +10,9 @@ body {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    
 
-background-image: url('../public/logo512.png');
+background-image: url('../public/Cappuccino-Cake-FI-500x500.jpg');
 }
 
 .CakeList {
@@ -28,5 +28,5 @@ background-image: url('../public/logo512.png');
     border: solid 1px;
     border-color: rgb(54, 103, 103);
     padding: 5%;
-    margin: 10px;
+    
 }
